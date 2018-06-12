@@ -77,9 +77,9 @@ inherits@2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
-katex@0.10.0-alpha:
-  version "0.10.0-alpha"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.10.0-alpha.tgz#0b31086ffb7fedf4eb408a630d35cf6d198f2809"
+katex@0.10.0-beta:
+  version "0.10.0-beta"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.10.0-beta.tgz#82c9ccb21fbc92c5dbed67db3240e299969efffb"
   dependencies:
     match-at "^0.1.1"
     nomnom "^1.8.1"

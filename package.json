@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "clean-css-cli": "^4.1.11",
-    "katex": "0.10.0-alpha"
+    "katex": "0.10.0-beta"
   }
 }

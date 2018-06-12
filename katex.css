@@ -125,7 +125,9 @@
   .katex .mfrac .frac-line,
   .katex .overline .overline-line,
   .katex .underline .underline-line,
-  .katex .hline {
+  .katex .hline,
+  .katex .hdashline,
+  .katex .rule {
     min-height: 1px;
   }
 }
@@ -292,42 +294,6 @@
 .katex .mspace {
   display: inline-block;
 }
-.katex .mspace.negativethinspace {
-  margin-left: -0.16667em;
-}
-.katex .mspace.muspace {
-  width: 0.055556em;
-}
-.katex .mspace.thinspace {
-  width: 0.16667em;
-}
-.katex .mspace.negativemediumspace {
-  margin-left: -0.22222em;
-}
-.katex .mspace.mediumspace {
-  width: 0.22222em;
-}
-.katex .mspace.thickspace {
-  width: 0.27778em;
-}
-.katex .mspace.sixmuspace {
-  width: 0.333333em;
-}
-.katex .mspace.eightmuspace {
-  width: 0.444444em;
-}
-.katex .mspace.enspace {
-  width: 0.5em;
-}
-.katex .mspace.twelvemuspace {
-  width: 0.666667em;
-}
-.katex .mspace.quad {
-  width: 1em;
-}
-.katex .mspace.qquad {
-  width: 2em;
-}
 .katex .llap,
 .katex .rlap,
 .katex .clap {
@@ -366,6 +332,11 @@
   display: inline-block;
   width: 100%;
   border-bottom-style: solid;
+}
+.katex .hdashline {
+  display: inline-block;
+  width: 100%;
+  border-bottom-style: dashed;
 }
 .katex .sqrt > .root {
   margin-left: 0.27777778em;
@@ -913,6 +884,9 @@
   margin: 0 -0.025em;
   border-right: 0.05em solid;
 }
+.katex .mtable .vs-dashed {
+  border-right: 0.05em dashed;
+}
 .katex .mtable .arraycolsep {
   display: inline-block;
 }
@@ -1015,14 +989,9 @@
 .katex .cancel-pad {
   padding: 0 0.2em 0 0.2em;
 }
-.katex .mord + .cancel-lap,
-.katex .mbin + .cancel-lap {
+.katex .cancel-lap {
   margin-left: -0.2em;
-}
-.katex .cancel-lap + .mord,
-.katex .cancel-lap + .mbin,
-.katex .cancel-lap + .msupsub {
-  margin-left: -0.2em;
+  margin-right: -0.2em;
 }
 .katex .sout {
   border-bottom-style: solid;
