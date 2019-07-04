@@ -1,0 +1,19 @@
+--- node_modules/katex/dist/katex.css	2019-07-04 09:30:13.000000000 -0400
++++ katex.css	2019-07-04 09:43:53.000000000 -0400
+@@ -120,7 +120,7 @@
+   font-style: normal;
+ }
+ .katex {
+-  font: normal 1.21em KaTeX_Main, Times New Roman, serif;
++  font: normal 1.1em KaTeX_Main, Times New Roman, serif;
+   line-height: 1.2;
+   text-indent: 0;
+   text-rendering: auto;
+@@ -1000,6 +1000,7 @@
+ }
+ .katex-display > .katex {
+   display: block;
++  font-size: 1.21em;
+   text-align: center;
+   white-space: nowrap;
+ }

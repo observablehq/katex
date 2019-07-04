@@ -15,7 +15,7 @@
     "prepublishOnly": "rm -rf dist && cp -r node_modules/katex/dist dist && cp katex.css dist && cleancss --skip-rebase katex.css -o dist/katex.min.css"
   },
   "devDependencies": {
-    "clean-css-cli": "^4.1.11",
-    "katex": "0.10.0-beta"
+    "clean-css-cli": "4",
+    "katex": "0.10.2"
   }
 }
