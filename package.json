@@ -11,6 +11,13 @@
     "name": "Observable, Inc."
   },
   "main": "dist/katex.min.js",
+  "files": [
+    "dist/fonts/*.ttf",
+    "dist/fonts/*.woff",
+    "dist/fonts/*.woff2",
+    "dist/katex.min.css",
+    "dist/katex.min.js"
+  ],
   "scripts": {
     "prepublishOnly": "rm -rf dist && cp -r node_modules/katex/dist dist && cp katex.css dist && cleancss --skip-rebase katex.css -o dist/katex.min.css"
   },
