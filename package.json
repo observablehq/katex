@@ -19,7 +19,8 @@
     "dist/katex.min.js"
   ],
   "scripts": {
-    "prepublishOnly": "rm -rf dist && cp -r node_modules/katex/dist dist && cp katex.css dist && cleancss --skip-rebase katex.css -o dist/katex.min.css"
+    "prepublishOnly": "rm -rf dist && cp -r node_modules/katex/dist dist && cp katex.css dist && cleancss --skip-rebase katex.css -o dist/katex.min.css",
+    "postpublish": "git push && git push --tags"
   },
   "devDependencies": {
     "clean-css-cli": "4",
