@@ -1,5 +1,5 @@
---- node_modules/katex/dist/katex.css	2019-07-04 09:30:13.000000000 -0400
-+++ katex.css	2019-07-04 09:43:53.000000000 -0400
+--- node_modules/katex/dist/katex.css	2019-08-22 12:51:46.000000000 -0700
++++ katex.css	2019-08-22 12:52:03.000000000 -0700
 @@ -120,7 +120,7 @@
    font-style: normal;
  }
@@ -9,7 +9,7 @@
    line-height: 1.2;
    text-indent: 0;
    text-rendering: auto;
-@@ -1000,6 +1000,7 @@
+@@ -991,6 +991,7 @@
  }
  .katex-display > .katex {
    display: block;
