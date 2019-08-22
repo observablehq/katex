@@ -992,6 +992,7 @@
 .katex-display > .katex {
   display: block;
   font-size: 1.21em;
+  overflow-x: auto;
   text-align: center;
   white-space: nowrap;
 }
